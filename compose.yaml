@@ -1,0 +1,6 @@
+services:
+  tlc:
+    build: .
+    working_dir: /app
+    volumes:
+      - ./specs:/app/specs
